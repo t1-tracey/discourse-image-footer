@@ -1,0 +1,11 @@
+#footer-img {
+
+  @if $footer-image != "default"  {
+    content: url($footer-image);
+ } @else {
+    content: url($default-image);
+  }
+
+  max-width:100%;
+  height: auto;
+}
